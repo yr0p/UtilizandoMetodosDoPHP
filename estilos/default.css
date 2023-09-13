@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100svw;
+    height: 100svh;
+
+    display: flex;
+    flex-direction: column;
+}
+#container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#conteudo{
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+}
+#sair{
+    text-decoration: none;
+    color: crimson;
+}
+.Btn{
+    width: 100%;
+    display: block;
+
+    padding: 5px;
+
+    font-size: 1.5rem;
+
+    border: none;
+    border-radius: 20px;
+
+    box-shadow: 1px 1px 10px black;
+
+    background-color: black;
+}
+.Btn:hover{
+    cursor: pointer;
+    background-color: rgb(252, 104, 104);
+}
